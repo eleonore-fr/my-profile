@@ -1,0 +1,148 @@
+body { 
+background-color: #F2D7D9;
+color: rgb(30, 30, 30 / 1.0);
+font-family: Lato;
+
+ }
+
+ h1{
+
+ color: #748DA6;
+ text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+ font-family: Bebas Neue, serif;
+ font-weight: bold;
+ font-size: 60px;
+ }
+
+h2{
+
+ color: #B3AEBF;
+ text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+ text-transform: uppercase;
+ font-family: "Lora", sans-serif;
+ font-weight: bold;
+ font-size: 25px;
+ }
+
+
+
+ a{
+
+ 	text-decoration: none;
+ 	color: hotpink;
+ 	font-weight: bold;
+
+ }
+
+ a:hover {
+ 	color: lightyellow;
+
+ }
+
+
+
+
+/* custom design with classes */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+
+}
+
+@media (max-width: 760px) {
+
+	.container {
+		width: 600px;
+		
+	}
+
+}
+
+@media (max-width: 500px) {
+
+	.container {
+		width: 400px;
+
+	}
+
+}
+
+
+.card-white { 
+	background: floralwhite;
+	padding: 30px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+
+
+}
+
+
+.img-circle {
+
+	border-radius: 50%;
+	width: 200px;
+
+	box-shadow:0px 10px 30px rgba(0, 0, 0, 0.1); ;
+}
+
+.btn-pink {
+	background-color: #F2D7D9 ;
+	color: deeppink;
+	padding: 15px 20px;
+	border-radius: 4px;
+	
+
+}
+
+.btn-pink:hover{
+
+	background-color: deeppink ;
+	color: #F2D7D9;
+}
+
+
+.list-inline {
+    list-style: none; 
+    padding-left: 0px;
+    text-align: center; 
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+    margin-right: 15px;
+}
+
+.list-inline i {
+    font-size: 50px; 
+    color: deeppink; 
+    
+}
+
+.list-inline i:hover {
+    color: #F2D7D9;
+}
+
+#introduction p { 
+
+	margin-bottom: 40px;
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
